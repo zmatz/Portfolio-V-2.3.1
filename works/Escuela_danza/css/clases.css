@@ -1,0 +1,30 @@
+
+.txt-clase{ 
+	width: 95%;
+	background-color: black; 
+	opacity: 0.6;
+	margin: 50% auto;
+}
+.estilo-1{ /*clase agregar la imagen como un fondo*/
+	background-image: url("../img/dance_12.jpg");
+}
+.estilo-2{
+	background-image: url("../img/breakdance.jpg");
+}
+.estilo-3{
+	background-image: url("../img/lirical-jazz.jpg");
+}
+.estilo-4{
+	background-image: url("../img/arabe.jpg");
+}
+.estilo-5{
+	background-image: url("../img/little.jpg");
+}
+.estilo-6{
+	background-image: url("../img/yoga.jpg");
+}
+.clas-img{ /*clase para darle propiedades al fondo y tamaño al div*/
+	background-size: 100%;
+	background-position: center;
+	height: 425px; 
+}

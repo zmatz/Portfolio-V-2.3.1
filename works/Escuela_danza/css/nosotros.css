@@ -1,0 +1,57 @@
+.about{
+	background-image: url("../img/dance_7.jpg");
+	background-size: 140%;
+	background-position: 2% 40%;
+	height: 400px;
+}
+.cajaSobreN{
+	width: 80%;
+	background-color: black; 
+	opacity: 0.6;
+	margin: 25% auto;
+}
+.cajaSobreN h2 {
+	padding: 3%
+}
+.cajaSobreN p {
+	padding: 0 2% 2%;
+}
+.pilares{
+	background-image: url("../img/cubes.png");
+}
+.pd-15 {
+	padding: 15%;
+}
+
+.instr-1{
+	background-image: url("../img/profesor_4.jpg");
+}
+.instr-2{
+	background-image: url("../img/profesor_14.jpg");
+}
+.instr-3{
+	background-image: url("../img/profesor_1.jpg");
+}
+.instr-4{
+	background-image: url("../img/profesor_10.jpg");
+}
+.instr-5{
+	background-image: url("../img/profesor_11.jpg");
+}
+.instr-6{
+	background-image: url("../img/profesor_12.jpg");
+}
+.instr-7{
+	background-image: url("../img/profesor_9.jpg");
+}
+.instr-8{
+	background-image: url("../img/profesor_15.jpg");
+}
+.profe-pic{
+	background-size: 100%;
+	background-position: top;
+	height: 165px; 
+}
+h3{
+	padding: 5% 0;
+}

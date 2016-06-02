@@ -1,0 +1,32 @@
+.bl-pic1{
+	background-image: url("../img/blog1.jpg");
+}
+.bl-pic2{
+	background-image: url("../img/profesor_5.jpg");
+}
+.bl-pic3{
+	background-image: url("../img/instructor_1.jpg");
+}
+
+.img-at {
+	background-size: cover;
+	background-position: center;
+	height: 290px;
+}
+
+.bg-blogs {
+	background-color: #cfd8dc;
+	height: 290px;
+}
+
+.blog button{
+	background: #192951;
+	padding: 2% 5%;
+	margin-left: 5%;
+	margin-bottom: 7%;
+	border-radius: 5px;
+}
+.blog button:hover{
+	background: turquoise;
+}
+
