@@ -48,6 +48,7 @@ p.withoutborders {
 
 .keyword {
     font-family: 'Source Sans Pro', sans-serif;
+    font-style: oblique;
     width: 150px;
     text-align: center;
     display: inline-block;

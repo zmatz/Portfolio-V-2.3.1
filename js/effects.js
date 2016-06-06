@@ -12,7 +12,7 @@ $(document).ready(function () {
     /*------------------------------------------------------------------*/
     /*Rotating Words*/
 
-        var keywords = ["la biología", "sistemas", "razones", "Ideas", "Verdades", "la ética", "mentes", "el código", " el caos", "el arte", "historias", "la vida", "teorías", "la ciencia"];
+        var keywords = ["biología", "sistemas", "razones", "ideas", "verdades", "ética", "mentes", "código", " caos", "arte", "historias", "vida", "teorías", "ciencia"];
         var count = 1;
         setInterval(function(){
             $("span.keyword").fadeOut(400, function(){
