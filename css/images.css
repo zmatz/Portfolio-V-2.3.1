@@ -17,19 +17,6 @@ img, .wp-caption {
 
 /*Homepage------------------------------------------------*/
 
-.home .widget .execphpwidget {
-    position: relative;
-    min-width: 175px;
-    min-height: 175px;
-}
-
-.featured-image {
-    min-width: 100%;
-    max-width: 100%;
-    width: 100%;
-    min-height: 175px;
-}
-
 .home #main a {
     background-repeat: no-repeat;
     background-position: center center;
@@ -52,15 +39,6 @@ img, .wp-caption {
     height: auto;
 }
 
-.featured-blog-image {
-    min-width: 150px;
-    min-height: 150px;
-    padding: 0px 0px;
-    text-align: center;
-    line-height: 0em;
-    background: url("/wp-content/themes/yeedor/_assets/icons/loading.gif") center center no-repeat;
-}
-
 .home .image {
     padding: 0px 0px;
 }
@@ -77,28 +55,7 @@ img, .wp-caption {
     display: inline-block;
 }
 
-/*Instagrams------------------------------------------------*/
-
-.single-instagrams .content .entry{
-    text-align: center;
-}
-
-.single-instagrams .content .entry p {
-    margin-bottom: 0em;
-}
-
-.single-instagrams .content .entry a {
-    background: transparent;
-    padding: 0px 0px;
-}
-
-.single-instagrams .content .entry p.insta-link a{
-    background: none repeat scroll 0 0 #F0F3F5;
-    padding: 4px 5px 3px;
-}
-
-
-/*About Page-------------------------------------------------*/
+/*About -------------------------------------------------*/
 
 .page-template-page-about-php .content img {
 
@@ -106,39 +63,6 @@ img, .wp-caption {
     height: auto;
     margin-bottom: 1em;
 }
-
-/*Post Pages----------------------------------------------*/
-
-.entry img, .photo img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
-
-.pale-image {
-    border: 1px solid #e0e3e5;
-}
-
-
-/*Slideshows----------------------------------------------*/
-
-.royalSlider {
-    border: 1px solid #e0e3e5;
-    margin-bottom: 2em;
-}
-
-.single .rsUni .rsGCaption {
-    background: #666666;
-    color: #ccc;
-    padding: 8px 10px;
-    border-radius: 0;
-    font-size: 75%;
-    width: 100%;
-    left: 0;
-    bottom: 0px;
-    line-height: 1.5em;
-}
-
 
 
 /*----------------------------------------------------------*/

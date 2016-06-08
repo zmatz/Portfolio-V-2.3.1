@@ -37,15 +37,6 @@ li {
 }
 
 
-p.withoutborders {
-    border-width: 0px 0px;
-    margin: 1em 1em;
-}
-
-.entry-content ul, .entry-content ol {
-    margin-left: 1.25em;
-}
-
 .keyword {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: oblique;
@@ -140,7 +131,7 @@ h3.subhead {
     }
 
  .keyword {
-    width: 200px;
+    width: 165px;
     }
 
 }
@@ -148,23 +139,17 @@ h3.subhead {
 /*-----------------------------------------------------*/
 
 @media screen and (min-width: 341px) and (max-width: 489px) {
-
-   
+     .keyword {
+    width: 160px;
+    }   
 }
 
-
-@media screen and (min-width: 0px) and (max-width: 489px) {
+@media screen and (min-width: 341px) and (max-width: 489px) {
 
     h1 {
         font-size: 250%;
     }
     
-    .keyword {
-    width: 265px;
-    
-    }
-
-
     .meta {
         text-align: center;
     }
