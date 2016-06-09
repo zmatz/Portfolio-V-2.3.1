@@ -12,23 +12,30 @@ $(document).ready(function () {
     /*------------------------------------------------------------------*/
     /*Rotating Words*/
 
-        var keywords = ["biología", "sistemas", "razones", "ideas", "verdades", "ética", "mentes", "código", " caos", "arte", "historias", "vida", "teorías", "ciencia"];
+        var keywords = ["el caos detrás","el código detrás","las razones detrás", "la ciencia detrás", "la biología a través", "los sistemas detrás",  "las teorías detrás", "las mentes detrás","la ética detrás", "el arte a través", "la vida a través"];
         var count = 1;
         setInterval(function(){
-            $("span.keyword").fadeOut(400, function(){
+            $("span.keyword").fadeOut(600, function(){
                 $(this).html(keywords[count]);
                 count++
                 if(count == keywords.length)
                     count = 0;
-                $(this).fadeIn(400);
+                $(this).fadeIn(600);
             });
-        }, 3250);
+        }, 5000);
 
-
-    /*------------------------------------------------------------------*/
-    /*Acordeon*/
-
-
+        /*var advervios = ["detrás","detrás","detrás", "a través", "detrás", "a través", "detrás",  
+          "detrás", "detrás","detrás", "a través", "a través"];
+        var count = 1;
+        setInterval(function(){
+            $("span.advervio").fadeOut(500, function(){
+                $(this).html(advervios[count]);
+                count++
+                if(count == advervios.length)
+                    count = 0;
+                $(this).fadeIn(500);
+            });
+        }, 3250);*/
 
     /*------------------------------------------------------------------*/
 
