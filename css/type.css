@@ -40,10 +40,9 @@ li {
 .keyword {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: oblique;
-    width: 25%;
     text-align: center;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /*Hyperlinks---------------------------------------------*/
@@ -124,24 +123,23 @@ h3.subhead {
 
 /*Media Queries----------------------------------------*/
 
-@media screen and (min-width: 0px) and (max-width: 340px) {
+@media screen and (min-width: 0px) and (max-width: 320px) {
     body {
         width: 100%
         overflow-x: hidden;
     }
-
- .keyword {
-    width: 165px;
+    .keyword {
+        width: 100%;
     }
-
 }
 
 /*-----------------------------------------------------*/
 
-@media screen and (min-width: 341px) and (max-width: 489px) {
-     .keyword {
-    width: 160px;
-    }   
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .keyword {
+        width: 100%;
+    }
+   
 }
 
 @media screen and (min-width: 341px) and (max-width: 489px) {
@@ -162,6 +160,12 @@ h3.subhead {
         line-height: 2.25em;
         font-size: 80%;
     }
+    
+    @medin and (min-widht:360px) and (max-width:640px){
+        .keyword {
+            width: 100%;
+        }
+    }
 
 
 /*-----------------------------------------------------*/
@@ -174,23 +178,15 @@ h3.subhead {
     h1 {
         font-size: 300%;
     }
-     .keyword {
-    width: 300px;
-    
-    }
-
-
-    h3.subhead {
-        font-size: 125%;
-    }
 
 }
 
 /*-----------------------------------------------------*/
 
 
-@media screen and (min-width: 770px) and (max-width: 1023px) {
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+  
     .meta h1{
         margin: 0em 0em;
     }
@@ -199,10 +195,9 @@ h3.subhead {
         font-size: 300%;
     }
 
-     .keyword {
-    width: 125px;
-    
-    }
+    .keyword {
+            width: 40%;
+        }
 
     h3.subhead {
         font-size: 150%;
@@ -211,6 +206,11 @@ h3.subhead {
 }
 
 @media screen and (min-width: 960px) and (max-width: 1024px) {
+    
+    .keyword {
+            width: 100%;
+        }
+    
      .home .overview .date {
         display: none;
     }
